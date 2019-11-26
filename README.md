@@ -1,5 +1,6 @@
 # Anycubic-Predator
-Configuration File
+
+calibrating e-steps and PID of the hotend
 
 As many people that've bought an Anycubic Predator with the Trigorilla-pro Board I also had the problem with the default e-steps and a circulating hotend temperature. In my case the extruder extruded 96mm instead of 100mm at a temperature of 210°C and the Hotbed temperature circulated between 200 and 220°C which made printig nearly impossible due to the reason that the printer was waiting for a kind of constant temp to start... which never happened.
 
