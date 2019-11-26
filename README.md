@@ -30,7 +30,7 @@ But what worked was:
     
     For me, with the original Titan clone, a value of S0.00235 worked fine (at 210°C with mounted bowdentube)
 
-6.  scrolling down in the file you will find the command M301 (which should sound familiar if you know Marlin)
+6.  scrolling down in the file you will find the command M301 (which should sound familiar if you know Marlin).
     Here I used P15.650000 I0.1 D62.879997 which I also found out via trial&error and the following explanation found at 
     
     https://reprap.org/wiki/PID_Tuning:
@@ -42,6 +42,8 @@ But what worked was:
     Response too damped? Increase P.
     Ramps up quickly to a value below target temperature (0-160 fast) and then slows down as it approaches target (160-170) 
     slow, 170-180 really slow, etc) temperature? Try increasing the I constant.
+    
+    Those values are able to hold the temperature in between 2-3°C!
 
 7.  Now you save the file to your SD, insert it to the printer and hit print.
 
